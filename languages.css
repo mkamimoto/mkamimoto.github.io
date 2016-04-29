@@ -1,0 +1,110 @@
+body {
+	font-family: helvetica;
+	margin: 0px;
+	background-image: url(http://cache4.asset-cache.net/xc/505618693.jpg?v=2&c=IWSAsset&k=2&d=LDZmcH7FPBjskIAM-MKYFUhvcS3keDjB8hQkCJByi2FfpfF0HAFQ87YI4p-LMi4q0);
+}
+
+
+div#header{
+	background-color: white;
+	width: 100%;
+	display: block;
+}
+
+h1 {
+	color: #3399FF;
+	font-style: italic;
+	font-family: cursive;
+	font-weight: bolder;
+}
+
+h2, h4{
+	text-align: center;
+}
+
+div#search{
+	float: right;
+	display: block;
+}
+
+div#nav{
+	display: block;
+}
+
+main {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 3em;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+div#introduction{
+	margin-top: 5px;
+
+}
+.section{
+	font-size: 15px;
+}
+.section#other_website{
+	font-size: x-small;
+}
+
+p {
+	text-align: center;
+}
+
+img{
+    width: 60%;
+    padding: 10px;
+}
+
+.footer{
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+}
+
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-left: 40%;
+	margin-right: 40%;
+	border-radius: 10px;
+}
+.languages{
+	text-align: center;
+}
+.unordered-list{
+	text-align: left;
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: #989898;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+@media only screen and (max-width: 768px) {
+    main {
+        font-size: x-small;
+    }
+    footer {
+    	font-size: x-small;
+    }
+}
+iframe {
+	width: 100%    !important;
+  	height: auto   !important;
+}
