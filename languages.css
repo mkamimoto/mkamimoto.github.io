@@ -10,12 +10,17 @@ div#header{
 	width: 100%;
 	display: block;
 }
+header {
+	margin-top: -1.9em;
+}
 
 h1 {
-	color: #3399FF;
+	color: black;
 	font-style: italic;
 	font-family: cursive;
 	font-weight: bolder;
+	text-align: center;
+	padding-top: .5em
 }
 
 h2, h4{
@@ -23,12 +28,17 @@ h2, h4{
 }
 
 div#search{
-	float: right;
-	display: block;
+	display: inline-block;
+	margin-top: -1.5em;
+	position: absolute;
+	right: 1px;
 }
 
 div#nav{
 	display: block;
+	background-color: white;
+	margin-top: -1.5em;
+	padding-bottom: .2em;
 }
 
 main {
@@ -84,7 +94,7 @@ footer{
 
 
 a:link {
-    color: blue;
+    color: red;
 }
 
 a:visited {
@@ -94,7 +104,9 @@ a:visited {
 a:hover {
     color: blue;
 }
-
+img:hover {
+    opacity: 0.7;
+}
 
 @media only screen and (max-width: 768px) {
     main {
@@ -103,7 +115,6 @@ a:hover {
     footer {
     	font-size: x-small;
     }
-}
 iframe {
 	width: 100%    !important;
   	height: auto   !important;
